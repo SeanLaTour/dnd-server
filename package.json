@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
+    "before_script": "cd DNDSERVER",
     "start": "nodemon index.js"
   },
   "author": "Sean La Tourette",
