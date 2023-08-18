@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "start": "nodemon index.js"
+    "start": "nodemon src/index.js"
   },
   "author": "Sean La Tourette",
   "license": "ISC",
