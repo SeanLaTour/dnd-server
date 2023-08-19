@@ -24,6 +24,19 @@ app.post("/map", (req, res) => {
     res.send(200)
 })
 
+app.get("/map-list", (req, res) => {
+    const data = readDatabase();
+    res.send(data)
+})
+
+app.post("/map-list", (req, res) => {
+    let data = readDatabase();
+    const mapList = req.body
+    data.mapList.push(mapList)
+    writeDatabase(data);
+    res.send(200)
+})
+
 app.get("/characters", (req, res) => {
     const data = readDatabase();
     res.send(data)
@@ -58,6 +71,10 @@ io.on("connection", (socket) => {
     socket.on("send_message", (data) => {
         console.log("connected")
         socket.broadcast.emit("recieve_message", data)
+    })
+    socket.on("load_map", (data) => {
+        console.log("connected")
+        socket.broadcast.emit("get_loaded_map", data)
     })
 })
 
