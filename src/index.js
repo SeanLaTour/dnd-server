@@ -57,6 +57,21 @@ app.post("/characters", (req, res) => {
     res.send(200)
 })
 
+app.post("/deleteCharacters", (req, res) => {
+    // let data = readDatabase();
+    // const characters = req.body
+
+    // if(typeof data !== "object") {
+    //     data = {characters: characters}
+    // }
+    // else {
+    //     data.characters = characters
+    // }
+
+    // writeDatabase(data);
+    // res.send(200)
+})
+
 const server = http.createServer(app);
 
 const io = new Server(server, {

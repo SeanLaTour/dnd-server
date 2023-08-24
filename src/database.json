@@ -2,9 +2,9 @@
   "mapList": [
     "https://c4.wallpaperflare.com/wallpaper/49/630/343/fantasy-battle-dragon-horse-knight-hd-wallpaper-preview.jpg",
     "https://w0.peakpx.com/wallpaper/352/733/HD-wallpaper-storm-bringer-wings-lighting-danger-ocean-sailing-beautiful-sky-dragon-storm-sea-hayaken-water-ship-dark-sea-monster-night.jpg",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX2UT2UFqUa4b6MflkM2rLqbbQF2ecSosmyMZEJVue&s",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7h1IX_giYLc5-znNw61-LEmc_J0wz9HXYlWm6Fy-K&s"
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX2UT2UFqUa4b6MflkM2rLqbbQF2ecSosmyMZEJVue&s"
   ],
   "map": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7h1IX_giYLc5-znNw61-LEmc_J0wz9HXYlWm6Fy-K&s",
-  "characters": "[{\"player\":\"Sean\",\"character\":\"Roma\",\"image\":\"https://image.lexica.art/md2/100d0f84-6813-49c7-8c15-0fecd9e9b6c7\",\"id\":\"Sean\"}]"
+  "characters": "[{\"player\":\"Sean\",\"character\":\"Roma\",\"image\":\"https://image.lexica.art/md2/100d0f84-6813-49c7-8c15-0fecd9e9b6c7\",\"id\":\"Sean\"}]",
+  "characterList": []
 }
